@@ -8,6 +8,7 @@ on:
 
 jobs:
   phpunit:
+    if: "!contains(github.event.head_commit.message, 'skip ci')"
   
     strategy:
       fail-fast: true
@@ -44,7 +45,7 @@ jobs:
     steps:
     - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
       with:
-        php-versions: ${{ matrix.php-versions }}
+        php-version: ${{ matrix.php-versions }}
         extensions: mbstring, dom, fileinfo, mysql
         coverage: xdebug
         
