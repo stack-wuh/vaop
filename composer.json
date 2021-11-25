@@ -1,16 +1,14 @@
 {
-    "name": "laravel/laravel",
+    "name": "vaop/vaop",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "description": "Virtual Airline Operations Platform.",
+    "keywords": ["virtual", "airline", "operations", "platform", "vaop"],
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^8.0",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.65",
-        "laravel/sanctum": "^2.11",
-        "laravel/tinker": "^2.5"
+        "laravel/sanctum": "^2.11"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -18,7 +16,8 @@
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^5.10",
-        "phpunit/phpunit": "^9.5.10"
+        "phpunit/phpunit": "^9.5.10",
+        "laravel/tinker": "^2.5"
     },
     "autoload": {
         "psr-4": {
