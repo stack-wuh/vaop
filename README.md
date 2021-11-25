@@ -22,9 +22,6 @@
 - User Guide: [Getting Started](https://docs.vaop.io)
 - Community: [Join us](https://discord.gg/xDcQGvGbs6) on Discord
 
-**Please note**: We take your experience seriously. If you have suggestions or feedback, please connect with us
-[on discord](https://discord.gg/xDcQGvGbs6).
-
 ## Development
 
 TBW
